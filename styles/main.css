@@ -334,6 +334,11 @@ table {
 .sm-logo img {
   height: 58px;
   padding-top: 35px;
+  transition: all 0.5s ease-out 0s;
+}
+
+.sm-logo img:hover {
+  opacity: 0.5;
 }
 
 .c-inline {
@@ -373,15 +378,16 @@ table {
 #img_1 {
   position: fixed;
   z-index: -98;
-  top: 7%;
-  left: 25%;
+  margin: 0 25%;
+  padding: 0;
   width: 100vw;
+  height: 100vh;
   opacity: 0;
   transition: all 0.5s ease-out 0s;
 }
 
 #img_1 img {
-  width: 600px;
+  height: 100vh;
 }
 
 #img_2 {
@@ -466,6 +472,147 @@ table {
 }
 
 #img_7 img {
+  width: 100vw;
+}
+
+#img_8 {
+  position: fixed;
+  z-index: -90;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_8 img {
+  width: 100vw;
+}
+
+#img_9 {
+  position: fixed;
+  z-index: -89;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_9 img {
+  width: 100vw;
+}
+
+#img_10 {
+  position: fixed;
+  z-index: -88;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_10 img {
+  width: 100vw;
+}
+
+#img_11 {
+  position: fixed;
+  z-index: -87;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_11 img {
+  width: 100vw;
+}
+
+#img_12 {
+  position: fixed;
+  z-index: -86;
+  margin: 0 10%;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_12 img {
+  width: 80vw;
+}
+
+#img_13 {
+  position: fixed;
+  z-index: -85;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_13 img {
+  width: 100vw;
+}
+
+#img_14 {
+  position: fixed;
+  z-index: -84;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_14 img {
+  width: 100vw;
+}
+
+#img_15 {
+  position: fixed;
+  z-index: -83;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_15 img {
+  width: 100vw;
+  height: 100vh;
+}
+
+#img_16 {
+  position: fixed;
+  z-index: -82;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_16 img {
+  width: 100vw;
+}
+
+#img_17 {
+  position: fixed;
+  z-index: -81;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_17 img {
   width: 100vw;
 }
 

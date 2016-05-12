@@ -119,6 +119,16 @@ window.onload = function() {
     var img5 = document.getElementById('img_5');
     var img6 = document.getElementById('img_6');
     var img7 = document.getElementById('img_7');
+    var img8 = document.getElementById('img_8');
+    var img9 = document.getElementById('img_9');
+    var img10 = document.getElementById('img_10');
+    var img11 = document.getElementById('img_11');
+    var img12 = document.getElementById('img_12');
+    var img13 = document.getElementById('img_13');
+    var img14 = document.getElementById('img_14');
+    var img15 = document.getElementById('img_15');
+    var img16 = document.getElementById('img_16');
+    var img17 = document.getElementById('img_17');
 
 
     function keyImgs_in(e) {
@@ -144,6 +154,36 @@ window.onload = function() {
         if (x == 69) {  // 69 is the E key
             img7.style.opacity = '0.9';
         }
+        if (x == 83) {  // 83 is the S key
+            img8.style.opacity = '0.9';
+        }
+        if (x == 71) {  // 71 is the G key
+            img9.style.opacity = '0.9';
+        }
+        if (x == 82) {  // 82 is the R key
+            img10.style.opacity = '0.9';
+        }
+        if (x == 84) {  // 84 is the T key
+            img11.style.opacity = '0.9';
+        }
+        if (x == 79) {  // 79 is the O key
+            img12.style.opacity = '1';
+        }
+        if (x == 85) {  // 85 is the U key
+            img13.style.opacity = '1';
+        }
+        if (x == 87) {  // 87 is the W key
+            img14.style.opacity = '1';
+        }
+        if (x == 78) {  // 78 is the N key
+            img15.style.opacity = '1';
+        }
+        if (x == 81) {  // 81 is the Q key
+            img16.style.opacity = '0.9';
+        }
+        if (x == 65) {  // 65 is the A key
+            img17.style.opacity = '1';
+        }
     }
 
     function keyImgs_out(e) {
@@ -168,7 +208,37 @@ window.onload = function() {
         }  
         if (x == 69) {  // 69 is the E key
             img7.style.opacity = '0';
-        }        
+        }
+        if (x == 83) {  // 83 is the S key
+            img8.style.opacity = '0';
+        }
+        if (x == 71) {  // 71 is the G key
+            img9.style.opacity = '0';
+        }
+        if (x == 82) {  // 82 is the R key
+            img10.style.opacity = '0';
+        }
+        if (x == 84) {  // 84 is the T key
+            img11.style.opacity = '0';
+        }
+        if (x == 79) {  // 79 is the O key
+            img12.style.opacity = '0';
+        }
+        if (x == 85) {  // 85 is the U key
+            img13.style.opacity = '0';
+        }
+        if (x == 87) {  // 87 is the W key
+            img14.style.opacity = '0';
+        }
+        if (x == 78) {  // 78 is the N key
+            img15.style.opacity = '0';
+        }
+        if (x == 81) {  // 81 is the Q key
+            img16.style.opacity = '0';
+        }
+        if (x == 65) {  // 65 is the A key
+            img17.style.opacity = '0';
+        }
     }
 
     window.addEventListener ('keydown', keyImgs_in, false); 
