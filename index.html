@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta property="og:url" content="https://www.smtown.com/"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Devil: Super Junior - A Key-based Interactive Music Video"/>
+	<meta property="og:description" content="This is an key-based interactive video. Please click PLAY then try pressing keys to explore different animated features."/>
+
+	<title>SUPER JUNIOR</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">	
+</head>
+<body>
+
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '1005237232863567',
+		      xfbml      : true,
+		      version    : 'v2.6'
+		    });
+		};
+
+		(function() {
+  			var e = document.createElement('script'); e.async = true;
+  			e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+			document.getElementById('fb-root').appendChild(e);
+		}());
+		
+		FB.ui({
+  			method: 'share_open_graph',
+			action_type: 'og.likes',
+			action_properties: JSON.stringify({
+			object:'https://developers.facebook.com/docs/',
+  		})
+		}, function(response){
+  			// Debug response (optional)
+  			console.log(response);
+		});
+	</script>
+
+
+	<header>
+		<h4 id="header-btn">ABOUT</h4>
+	</header>
+	
+	<section id="open" class="open-container">
+		<div class="open-logo">
+			<img src="img/devil-logo-bw.png" alt="open-logo">
+			<h1>[SUPER JUNIOR <span>SPECIAL</span>]</h1>
+			<div id="open-btn" class="open-btn">P L A Y</div>
+			<p class="intro-content">This is an key-based interactive video. Please click PLAY then try pressing keys to explore different animated features.</p>
+		</div>
+	</section>
+
+	<!--pause & play widget-->
+	<div id="pause-play" class="pause-container">
+		<div id="restart-btn" class="btn"> 
+			<p>RESTART</p>
+		</div>
+		<div id="pause-btn" class="btn"> 
+			<img src="img/pause-btn.png" alt="pause">
+		</div>
+		<div id="play-btn" class="btn"> 
+			<img src="img/play-btn.png" alt="play">
+		</div>
+	</div>
+
+	<div id="end" class="end-container">
+		<div class="end-words">
+			<h1>LIKE</h1>
+			<hr style="width: 50px; height: 2px; border: 0; background-color: rgb(200, 200, 200)">
+			<div class="share-fb"><a href="https://www.facebook.com/sharer/sharer.php?u=www.yizzywu.com" target="_blank">SHARE ON FACEBOOK</a></div>	
+			<div id="replay-btn" class="replay-btn">R E P L A Y</div>
+			<div id="about-btn" class="about-btn">A B O U T</div>
+		</div>
+	</div>
+
+    <div id="about-modal">
+      <img src="img/x.png" id="close-btn" alt="x">
+      <div class="about-in-container">
+    	<section id="about-p" class="about-content a-inline">
+    		<h2>ABOUT</h2>
+    		<p>This is an interactive music video created as an experiment of keyboard interaction. The idea was inspired by <a href="http://publictrust.biz/thru-interactive/" target="_blank">Spencer Sheridan</a> from <a href="https://www.chromeexperiments.com" target="_blank">Google Chrome Experiments</a>. Some of the motion graphics are self-created or from giphy. The purpose of making this project is to learn and play with javascript and appreciate the amazing performance by Super Junior.</p><br>
+    		<h3>Super Junior</h3>
+    		<p>Super Junior (Korean: 슈퍼주니어; Syupeo Junieo) is a South Korean boy band. Formed in 2005 by producer Lee Soo-man of S.M. Entertainment, the group comprised a total of thirteen members at its peak. Super Junior originally debuted with twelve members, consisting of leader Leeteuk, Heechul, Hankyung, Yesung, Kangin, Shindong, Sungmin, Eunhyuk, Siwon, Donghae, Ryeowook and Kibum. Kyuhyun joined the group in 2006.</p>
+    		<h3>Devil Album / 2015</h3>
+    		<p>Devil is the overall eighth Korean-language studio album (ninth overall) by South Korean boy band Super Junior, released on July 16, 2015, by S.M. Entertainment. Released as a "special album", the album features 9 members, marking the return of Yesung after his mandatory military service. The album also marks the first album without Shindong and Sungmin, due to mandatory military service.</p>
+
+    		<div id="contact">
+    			<p style="color: #BD2E1F">Copyright © 2016 <a style="color: #BD2E1F" href="http://www.yizzywu.com" target="_blank">Yizzy Wu</a> All Rights Reserved.</p>
+    			
+    		</div>
+    	</section>
+
+		<section class="credit-content a-inline">
+			<!--album image-->
+			<div class="album">
+				<div class="album-img d-inline"><a href="https://itunes.apple.com/us/album/devil-super-junior-special/id1019135255" target="_blank"><img src="img/devil_album.png" alt="album-img"></a></div>
+				<div class="download d-inline"><img src="img/download.png" alt="download-words"></div>
+			</div>
+			
+			<!--credit container-->
+			<div class="credit">
+				<div class="sm-logo c-inline"><a href="https://www.smtown.com/" target="_blank"><img class="c-inline" src="img/sm_logo.png" alt="sm-logo"></a></div>
+				<div id="about-share-btn" class="about-share c-inline"><a href="https://www.facebook.com/sharer/sharer.php?u=www.yizzywu.com" target="_blank">SHARE ON FACEBOOK</a></div>
+			</div>
+		</section>
+	  </div>	
+    </div>
+
+
+
+	<div id="key-imgs" class="key-imgs" style="mix-blend-mode: multiply">
+		<div id="img_1" style="mix-blend-mode: multiply"><img src="img/giphy.gif" alt="img_1"></div>
+		<div id="img_2" style="mix-blend-mode: multiply"><img src="img/bubble-gif.gif" alt="img_2"></div>
+		<div id="img_3" style="mix-blend-mode: multiply"><img src="img/triangle.gif" alt="img_3"></div>
+	</div>
+
+	<main>
+		<div id="bg-video">
+			<video id="video">
+				<source src="img/devil-music.mp4" type="video/mp4">
+				Your browser does not support the audio element.
+			</video>
+		</div>		
+	</main>
+
+	<footer></footer>
+
+	<script src="scripts/main-script.js" async></script>
+<!-- 	<script src="../scripts/app.js" async></script> -->
+</body>
+</html>
