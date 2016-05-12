@@ -129,6 +129,7 @@ window.onload = function() {
     var img15 = document.getElementById('img_15');
     var img16 = document.getElementById('img_16');
     var img17 = document.getElementById('img_17');
+    var img18 = document.getElementById('img_18');
 
 
     function keyImgs_in(e) {
@@ -166,23 +167,26 @@ window.onload = function() {
         if (x == 84) {  // 84 is the T key
             img11.style.opacity = '0.9';
         }
-        if (x == 79) {  // 79 is the O key
+        if (x == 79 || x == 80) {  // 79 is the O key
             img12.style.opacity = '1';
         }
-        if (x == 85) {  // 85 is the U key
+        if (x == 85 || x == 88) {  // 85 is the U key
             img13.style.opacity = '1';
         }
-        if (x == 87) {  // 87 is the W key
+        if (x == 87 || x == 70) {  // 87 is the W key
             img14.style.opacity = '1';
         }
-        if (x == 78) {  // 78 is the N key
+        if (x == 78 || x == 86) {  // 78 is the N key
             img15.style.opacity = '1';
         }
         if (x == 81) {  // 81 is the Q key
             img16.style.opacity = '0.9';
         }
-        if (x == 65) {  // 65 is the A key
+        if (x == 65 || x == 90) {  // 65 is the A key
             img17.style.opacity = '1';
+        }
+        if (x == 67 || x == 77) {  // 67 is the C key
+            img18.style.opacity = '0.5';
         }
     }
 
@@ -221,23 +225,26 @@ window.onload = function() {
         if (x == 84) {  // 84 is the T key
             img11.style.opacity = '0';
         }
-        if (x == 79) {  // 79 is the O key
+        if (x == 79 || x == 80) {  // 79 is the O key
             img12.style.opacity = '0';
         }
-        if (x == 85) {  // 85 is the U key
+        if (x == 85 || x == 88) {  // 85 is the U key
             img13.style.opacity = '0';
         }
-        if (x == 87) {  // 87 is the W key
+        if (x == 87 || x == 70) {  // 87 is the W key
             img14.style.opacity = '0';
         }
-        if (x == 78) {  // 78 is the N key
+        if (x == 78 || x == 86) {  // 78 is the N key
             img15.style.opacity = '0';
         }
         if (x == 81) {  // 81 is the Q key
             img16.style.opacity = '0';
         }
-        if (x == 65) {  // 65 is the A key
+        if (x == 65 || x == 90) {  // 65 is the A key
             img17.style.opacity = '0';
+        }
+        if (x == 67 || x == 77) {  // 67 is the C key
+            img18.style.opacity = '0';
         }
     }
 
