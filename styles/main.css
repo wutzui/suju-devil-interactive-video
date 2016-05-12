@@ -402,7 +402,7 @@ table {
 #img_3 {
   position: fixed;
   z-index: -95;
-  margin: 10vw 50vh;
+  margin: 0;
   width: 100vw;
   height: 100vh;
   opacity: 0;
@@ -410,7 +410,63 @@ table {
 }
 
 #img_3 img {
-  width: 50vw;
+  width: 100vw;
+}
+
+#img_4 {
+  position: fixed;
+  z-index: -94;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_4 img {
+  width: 100vw;
+}
+
+#img_5 {
+  position: fixed;
+  z-index: -93;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_5 img {
+  width: 100vw;
+}
+
+#img_6 {
+  position: fixed;
+  z-index: -92;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_6 img {
+  width: 100vw;
+}
+
+#img_7 {
+  position: fixed;
+  z-index: -91;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+
+#img_7 img {
+  width: 100vw;
 }
 
 header {
