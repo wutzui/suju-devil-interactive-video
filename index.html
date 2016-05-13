@@ -2,10 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta property="og:url" content="https://www.smtown.com/"/>
+	<meta property="og:url" content="wutzui.github.io/suju-devil-interactive-video/index.html/"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="Devil: Super Junior - A Key-based Interactive Music Video"/>
 	<meta property="og:description" content="This is an key-based interactive video. Please click PLAY then try pressing keys to explore different animated features."/>
+	<meta property="og:image" content="img/devil_album.png"/>
+	<meta property="og:site_name" content="SUJU Devil"/>
+	<meta property="fb:app_id" content="1005237232863567"/>
 
 	<title>SUPER JUNIOR</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">	
@@ -50,7 +53,7 @@
 			<img src="img/devil-logo-bw.png" alt="open-logo">
 			<h1>[SUPER JUNIOR <span>SPECIAL</span>]</h1>
 			<div id="open-btn" class="open-btn">P L A Y</div>
-			<p class="intro-content">This is an key-based interactive video. Please click PLAY then try pressing keys to explore different animated features.</p>
+			<p class="intro-content">This is an key-based interactive video. Please click PLAY then try pressing A-Z keys to explore different animated features.</p>
 		</div>
 	</section>
 
@@ -71,7 +74,7 @@
 		<div class="end-words">
 			<h1>LIKE</h1>
 			<hr style="width: 50px; height: 2px; border: 0; background-color: rgb(200, 200, 200)">
-			<div class="share-fb"><a href="https://www.facebook.com/sharer/sharer.php?u=www.yizzywu.com" target="_blank">SHARE ON FACEBOOK</a></div>	
+			<div class="share-fb"><a onclick="return !window.open(this.href, 'Facebook', 'width=640,height=300')" href="http://www.facebook.com/sharer/sharer.php?u=http://wutzui.github.io/suju-devil-interactive-video/index.html" target="_blank">SHARE ON FACEBOOK</a></div>	
 			<div id="replay-btn" class="replay-btn">R E P L A Y</div>
 			<div id="about-btn" class="about-btn">A B O U T</div>
 		</div>
@@ -82,7 +85,7 @@
       <div class="about-in-container">
     	<section id="about-p" class="about-content a-inline">
     		<h2>ABOUT</h2>
-    		<p>This is an interactive music video created as an experiment of keyboard interaction. The idea was inspired by <a href="http://publictrust.biz/thru-interactive/" target="_blank">Spencer Sheridan</a> from <a href="https://www.chromeexperiments.com" target="_blank">Google Chrome Experiments</a>. Some of the motion graphics are self-created or from giphy. The purpose of making this project is to learn and play with javascript and appreciate the amazing performance by Super Junior.</p><br>
+    		<p>This is an interactive music video created as an experiment of keyboard interaction. The idea was inspired by <a href="http://publictrust.biz/thru-interactive/" target="_blank">Spencer Sheridan</a> from <a href="https://www.chromeexperiments.com" target="_blank">Google Chrome Experiments</a>. Some of the motion graphics are self-created or from <a href="http://giphy.com/" target="_blank">Giphy</a>. The purpose of making this project is to learn and play with javascript and appreciate the amazing performance by Super Junior.</p><br>
     		<h3>Super Junior</h3>
     		<p>Super Junior (Korean: 슈퍼주니어; Syupeo Junieo) is a South Korean boy band. Formed in 2005 by producer Lee Soo-man of S.M. Entertainment, the group comprised a total of thirteen members at its peak. Super Junior originally debuted with twelve members, consisting of leader Leeteuk, Heechul, Hankyung, Yesung, Kangin, Shindong, Sungmin, Eunhyuk, Siwon, Donghae, Ryeowook and Kibum. Kyuhyun joined the group in 2006.</p>
     		<h3>Devil Album / 2015</h3>
@@ -104,19 +107,30 @@
 			<!--credit container-->
 			<div class="credit">
 				<div class="sm-logo c-inline"><a href="https://www.smtown.com/" target="_blank"><img class="c-inline" src="img/sm_logo.png" alt="sm-logo"></a></div>
-				<div id="about-share-btn" class="about-share c-inline"><a href="https://www.facebook.com/sharer/sharer.php?u=www.yizzywu.com" target="_blank">SHARE ON FACEBOOK</a></div>
+				<div id="about-share-btn" class="about-share c-inline"><a onclick="return !window.open(this.href, 'Facebook', 'width=640,height=300')" href="http://www.facebook.com/sharer/sharer.php?u=http://wutzui.github.io/suju-devil-interactive-video/index.html" target="_blank">SHARE ON FACEBOOK</a></div>
 			</div>
 		</section>
 	  </div>	
     </div>
 
-
-
-	<div id="key-imgs" class="key-imgs" style="mix-blend-mode: multiply">
-		<div id="img_1" style="mix-blend-mode: multiply"><img src="img/giphy.gif" alt="img_1"></div>
-		<div id="img_2" style="mix-blend-mode: multiply"><img src="img/bubble-gif.gif" alt="img_2"></div>
-		<div id="img_3" style="mix-blend-mode: multiply"><img src="img/triangle.gif" alt="img_3"></div>
-	</div>
+	<div id="img_1" class="imgs h100" style="mix-blend-mode: multiply"><img src="img/giphy.gif" alt="img_1"></div>
+	<div id="img_2" class="imgs w100" style="mix-blend-mode: multiply"><img src="img/bubble-gif.gif" alt="img_2"></div>
+	<div id="img_3" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/kyuhyun.gif" alt="img_3"></div>
+	<div id="img_4" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/donghae.gif" alt="img_4"></div>
+	<div id="img_5" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/heechul.gif" alt="img_5"></div>
+	<div id="img_6" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/yesung.gif" alt="img_6"></div>
+	<div id="img_7" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/eunhyuk.gif" alt="img_7"></div>
+	<div id="img_8" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/siwon.gif" alt="img_8"></div>
+	<div id="img_9" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/kangin.gif" alt="img_9"></div>
+	<div id="img_10" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/ryeowook.gif" alt="img_10"></div>
+	<div id="img_11" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/leeteuk.gif" alt="img_11"></div>
+	<div id="img_12" class="imgs h100" style="mix-blend-mode: multiply"><img src="img/raindrop.gif" alt="img_12"></div>
+	<div id="img_13" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/square.gif" alt="img_13"></div>
+	<div id="img_14" class="imgs w100" style="mix-blend-mode: darken"><img src="img/shower.gif" alt="img_14"></div>
+	<div id="img_15" class="imgs w100 h100" style="mix-blend-mode: color-burn"><img src="img/bounce.gif" alt="img_15"></div>
+	<div id="img_16" class="imgs w100" style="mix-blend-mode: hard-light"><img src="img/alldance.gif" alt="img_16"></div>
+	<div id="img_17" class="imgs w100" style="mix-blend-mode: overlay"><img src="img/grid.gif" alt="img_17"></div>
+	<div id="img_18" class="imgs w100" style="mix-blend-mode: lighten"><img src="img/lines.gif" alt="img_18"></div>
 
 	<main>
 		<div id="bg-video">
@@ -124,12 +138,11 @@
 				<source src="img/devil-music.mp4" type="video/mp4">
 				Your browser does not support the audio element.
 			</video>
-		</div>		
+		</div>
 	</main>
 
 	<footer></footer>
 
 	<script src="scripts/main-script.js" async></script>
-<!-- 	<script src="../scripts/app.js" async></script> -->
 </body>
 </html>
